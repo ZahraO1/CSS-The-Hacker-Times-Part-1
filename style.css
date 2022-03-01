@@ -19,16 +19,24 @@ ul{
 
 li{
     display: inline-block;
-    padding: 3px;    
+    padding: 5px; 
+   
 }
 
 li a{
     text-decoration: none;
-    color: #777;}
+    color: #777;
+
 }
-.more-articles{
+
+nav{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.more-articles>section{
     display: inline-block;
-    width: auto;
+    width: 348px;
     border-top: 1px solid #777;
 }
 
