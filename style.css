@@ -36,8 +36,19 @@ nav{
 }
 .more-articles>section{
     display: inline-block;
-    width: 348px;
     border-top: 1px solid #777;
+}
+
+#sugar{
+    width: 300px;
+    height: 132px;
+}
+
+.more-articles{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    row-gap: 10px;
+    column-gap: 10px;
 }
 
 body{
